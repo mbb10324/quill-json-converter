@@ -1,0 +1,11 @@
+{
+  	"extends": ["react-app", "react-app/jest"],
+  	"rules": {
+		"semi": ["warn", "always"],
+		"quotes": ["warn", "double"],
+		"jsx-quotes": ["warn", "prefer-double"],
+		"indent": ["warn", "tab", { "SwitchCase": 1 }],
+		"no-tabs": 0,
+		"max-len": ["warn", 150]
+  	}
+}
