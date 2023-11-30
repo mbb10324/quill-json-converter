@@ -29,12 +29,16 @@ export default function App() {
 			<h1>Quill JSON Converter</h1>
 			<div className="quill-wrapper">
 				<ReactQuill theme="snow" onChange={handleQullJSON} placeholder="Start Typing..." value={delta} />
-				<button onClick={() => setDelta()}>Reset Editor</button>
+				<button className="qsc-button" onClick={() => setDelta()}>
+					Reset Editor
+				</button>
 				<div className="quill-json">
 					<h2>Output:</h2>
 					<pre>{JSON.stringify(delta, null, 2)}</pre>
 				</div>
-				<button onClick={copyJsonToClipboard}>Copy Json To Clipboard</button>
+				<button className="qsc-button" onClick={copyJsonToClipboard}>
+					Copy Json To Clipboard
+				</button>
 				{copied && <span>Copied To Clipboard!</span>}
 			</div>
 		</div>
