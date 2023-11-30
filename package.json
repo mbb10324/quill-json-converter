@@ -6,7 +6,8 @@
 	"scripts": {
 		"test": "jest --coverage",
 		"start": "webpack serve --open --mode development",
-		"build": "webpack --mode production"
+		"build": "webpack --mode production",
+		"deploy": "gh-pages -d dist"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.22.20",
@@ -37,6 +38,7 @@
 		"webpack-dev-server": "^4.15.1"
 	},
 	"dependencies": {
+		"copy-webpack-plugin": "^11.0.0",
 		"gh-pages": "^6.1.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
