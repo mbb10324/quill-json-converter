@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	font-family: Arial, sans-serif;
+	color: rgb(128, 213, 220);
+	background-color: #141414;
+}
+
+.app video {
+	width: 40%;
+	height: auto;
+}
+
+.app h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.app h1 a {
+	color: #d4ef21;
+}
+
+@media screen and (max-width: 768px) {
+	.app video {
+		width: 90%;
+	}
+	.app h1 {
+		font-size: 12px;
+	}
+}
+
+
+/*# sourceMappingURL=main.css.map*/
