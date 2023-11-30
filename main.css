@@ -983,7 +983,7 @@
 	gap: 1.5rem;
 }
 
-.quill-wrapper button {
+.qsc-button {
 	outline: none;
 	background-color: var(--Baby);
 	border: 1px solid var(--Baby);
@@ -996,7 +996,7 @@
 	transition: all 0.2s ease-in-out;
 }
 
-.quill-wrapper button:hover {
+.qsc-button:hover {
 	background-color: var(--Black);
 	color: var(--Baby);
 }
