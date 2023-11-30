@@ -7,7 +7,7 @@ const path = require("path");
 require("dotenv").config();
 
 // Specify the port that your app will run on either from here or a .env file
-let appPort = process.env.PORT || 3036;
+let appPort = process.env.PORT || 3037;
 
 module.exports = {
 	module: {

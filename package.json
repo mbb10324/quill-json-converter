@@ -1,7 +1,8 @@
 {
-	"name": "react-arca-template",
+	"name": "quill-json-converter",
 	"version": "0.0.1",
 	"main": "index.js",
+	"homepage": "https://mbb10324.github.io/quill-json-converter",
 	"scripts": {
 		"test": "jest --coverage",
 		"start": "webpack serve --open --mode development",
@@ -36,8 +37,10 @@
 		"webpack-dev-server": "^4.15.1"
 	},
 	"dependencies": {
+		"gh-pages": "^6.1.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-quill": "^2.0.0",
 		"react-router-dom": "^6.16.0"
 	}
 }
