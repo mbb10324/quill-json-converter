@@ -17,7 +17,7 @@ Github Pages:
 
 ## Built With
 
-- [React](https://reactjs.org/){:target="_blank"}
-- [React-Arca](https://github.com/mbb10324/react-arca/){:target="_blank"}
-- [Quill](https://quilljs.com/){:target="_blank"}
-- [React-Quill](https://github.com/zenoamaro/react-quill){:target="_blank"}
+- [React](https://reactjs.org/)
+- [React-Arca](https://github.com/mbb10324/react-arca/)
+- [Quill](https://quilljs.com/)
+- [React-Quill](https://github.com/zenoamaro/react-quill)
