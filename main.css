@@ -980,7 +980,50 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 3rem;
+}
+
+.edit-area {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	gap: 1.5rem;
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+.nav-selector {
+	background-color: var(--Baby);
+	width: 50%;
+	border: 1px solid var(--Baby);
+	overflow: hidden;
+	height: 40px;
+	border-radius: 12px;
+	font-size: 1vw;
+}
+
+.nav-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1px;
+	margin: -1px;
+	height: 100%;
+}
+
+.selector-option {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	background-color: var(--Black);
+}
+
+.selected {
+	background-color: var(--Baby);
+	color: var(--Black);
 }
 
 .qsc-button {
@@ -994,6 +1037,8 @@
 	color: var(--Black);
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
+	position: relative;
+	z-index: 1;
 }
 
 .qsc-button:hover {
@@ -1034,7 +1079,7 @@
 }
 
 .quill-json h2 {
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin-bottom: 20px;
 }
 
@@ -1042,11 +1087,27 @@
 	background-color: var(--Gray);
 	border-radius: 12px;
 	padding: 20px;
+	white-space: pre-wrap;
 }
 
 .quill-wrapper span {
 	font-size: 1vw;
 	animation: fadeIn 0.6s ease-in-out;
+}
+
+.file-upload-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+	border: 2px dashed var(--Baby);
+	border-radius: 12px;
+}
+
+.file-uploader {
+	font-size: 1vw;
+	cursor: pointer;
 }
 
 @keyframes fadeIn {
